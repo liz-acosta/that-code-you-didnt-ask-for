@@ -9,7 +9,7 @@ const SLIDES_TEMPLATE_FILE_ID = '<REPLACE-THIS-WITH-THE-ID-OF-YOUR-SLIDE-DECK-TE
 // ID of folder to save to
 const LIGHTNING_TALKS_SLIDES_FOLDER_ID = '<REPLACE-THIS-WITH-THE-ID-OF-YOUR-FOLDER>'
 // URL of spreadsheet associated with form responses
-const LIGHTNING_TALKS_SHEET = SpreadsheetApp.openByUrl('<REPLACE-THIS-WITH-THE-URL-OF-YOUR-FORM-RESPONSE-SLIDESHEET>');
+const LIGHTNING_TALKS_SHEET = SpreadsheetApp.openByUrl('<REPLACE-THIS-WITH-THE-URL-OF-YOUR-FORM-RESPONSE-SPREADSHEET>');
 
 function formatFormResponse(formResponse) {
   // Create key-value pairs from form submission event values
